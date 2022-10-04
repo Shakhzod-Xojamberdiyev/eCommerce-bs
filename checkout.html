@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>eCommerce</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- HEADER START -->
+    <header class="site-header">
+        <div class="e-container">
+          <div class="header-top d-flex align-items-center justify-content-sm-between py-3">
+              <ul class="header-top-list d-flex justify-content-between list-unstyled mb-0">
+                <li class="header-top-item">
+                  <a class="header-top-link text-decoration-none link-success" href="#">Chat with us</a>
+                </li>
+                <li class="header-top-item">
+                  <a class="header-top-link text-decoration-none link-dark" href="#">+420 336 775 664</a>
+                </li>
+                <li class="header-top-item">
+                  <a class="header-top-link text-decoration-none link-dark" href="#">info@freshnesecom.com</a>
+                </li>
+              </ul>
+              <div class="header-page-list-wrap">
+                <button class="close-btn"></button>
+                <ul class="header-page-list list-unstyled mb-0">
+                  <li class="header-page-item">
+                    <a class="header-page-link" href="#">Blog</a>
+                  </li>
+                  <li class="header-page-item">
+                    <a class="header-page-link" href="#">About Us</a>
+                  </li>
+                  <li class="header-page-item">
+                    <a class="header-page-link" href="#">Careers</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+          <div class="header-between">
+            <div class="row d-flex align-items-center justify-content-between">
+              <div class="col col-sm-4 col-md-3 logo-wrapper d-flex align-items-center justify-content-center justify-content-sm-start">
+                <a href="./index.html">
+                  <img class="logo" src="./images/logo.svg" width="130" height="15" alt="Freshnesecom's logo">
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-7 order-5 order-sm-0">
+                <form class="search-form d-flex align-items-center" action="https://echo.htmlacademy.ru/courses">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      All categories
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Bakery</a></li>
+                      <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                      <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                      <li><a class="dropdown-item" href="#">Drinks</a></li>
+                      <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                      <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                      <li><a class="dropdown-item" href="#">Baby</a></li>
+                      <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+                    </ul>
+                  </div>
+                  <input class="search-input" type="text" placeholder="Search Produ...">
+                </form>
+              </div>
+               <div class="col col-sm-1 d-flex align-items-center justify-content-center">
+                 <a href="#">
+                   <img class="person-icon" src="./images/person-icon.svg" width="15" height="15" alt="Person icon">
+                 </a>
+               </div>
+               <div class="col col-sm-1 d-flex align-items-center justify-content-center">
+                 <button class="cart-btn position-relative">
+                   <span class="cart-badge position-absolute d-flex align-items-center justify-content-center">4</span>
+                 </button>
+               </div>
+               <div class="col burger-col d-flex d-sm-none align-items-center justify-content-end">
+                 <button class="burger"></button>
+               </div>
+            </div>
+          </div>
+        </div>
+        <nav class="sitenav mt-4">
+          <div class="e-container">
+            <ul class="nav-list list-unstyled d-flex flex-column align-items-center flex-sm-row flex-wrap">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bakery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fruit and vegetables</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Meat and fish</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Drinks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kitchen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Special nutrition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Baby</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pharmacy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- END OF SITE HEADER -->
+    
+    <!-- START SITE MAIN -->
+    <main>
+       <!-- hero section start -->
+    <section class="form-hero">
+        <nav class="form-hero__nav py-3" aria-label="breadcrumb">
+          <div class="e-container">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item "><a class="text-secondary text-decoration-none" href="./index.html">Homepage</a></li>
+              <li class="breadcrumb-item active text-dark" aria-current="page">Checkout page</li>
+            </ol>
+          </div>
+        </nav>
+        <div class="e-container">
+          <h2 class="visually-hidden">contact page</h2>
+          <div class="wrap-card row mt-3 justify-content-between d-flex">
+            <div class="col-6">
+              <form class="needs-validation mb-5" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off" novalidate>
+                <div class="row g-4 mb-5">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <h3 class="mb-2 fw-bold">Billing info</h3>
+                      <p class="mb-4 text-secondary">Please enter your billing info</p>
+                    </div>
+                    <div>
+                      <p class="text-secondary">Step 1 of 5</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label site-form-label">First name</label>
+                    <input type="text" class="form-control bg-light rounded-3 border py-2" name="user_name" id="validationCustom01" placeholder="First name" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom02" class="form-label site-form-label">Last name</label>
+                    <input type="text" class="form-control bg-light rounded-3 border py-2" name="user_surname" id="validationCustom02" placeholder="Last name" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustomUsername" class="form-label site-form-label">Email address</label>
+                    <div class="input-group has-validation">
+                      <input type="email" class="form-control bg-light rounded-3 border py-2" name="user_email" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Email addess" required>
+                      <div class="invalid-feedback">
+                        Please choose a username.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label site-form-label">Phone number</label>
+                    <input type="number" class="form-control bg-light rounded-3 border py-2" name="user_phone" id="validationCustom03" placeholder="Phone number" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid city.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom04" class="form-label site-form-label">Address</label>
+                    <input type="text" class="form-control bg-light rounded-3 border py-2" name="user_adress" id="validationCustom04" placeholder="Adress" required>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom09" class="form-label site-form-label">Town / City</label>
+                    <input type="text" class="form-control bg-light rounded-3 border py-2" name="user_city" id="validationCustom09" placeholder="Town or city" required>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom10" class="form-label site-form-label">State / Country</label>
+                    <input type="text" class="form-control bg-light rounded-3 border py-2" name="user_counter" id="validationCustom10" placeholder="Choose a state or Country" required>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <label for="validationCustom05" class="form-label site-form-label">Zip</label>
+                    <input type="text" class="form-control bg-light rounded-3 border py-2" name="user_zip" id="validationCustom05" placeholder="Postal code or ZIP" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid zip.
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check d-inline-block bg-light p-2 ps-5 rounded-3 border">
+                      <input class="form-check-input" type="checkbox" value="Ship to a different address?" name="user_tick_top" id="invalidCheck2" required>
+                      <label class="form-check-label" for="invalidCheck2">
+                        Agree to terms and conditions
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <h3 class="mb-2 fw-bold">Billing method</h3>
+                      <p class="mb-5 text-secondary">Please enter your payment method</p>
+                    </div>
+                    <div>
+                      <p class="text-secondary">Step 2 of 5</p>
+                    </div>
+                  </div>
+                  <div class="form-check mb-3 d-flex justify-content-between align-items-center bg-light p-2 ps-5 rounded-3 border">
+                    <div class="d-flex">
+                      <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label fw-bold" for="flexRadioDefault1">
+                        FedEx
+                      </label>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <span class="text-success me-2 fw-bold">+32 USD</span>
+                      <p class="text-dark mb-0 fw-bold">Additional price</p>
+                    </div>
+                    <img class="ms-5" src="./images/FedEx_Express.svg" alt=" hedex logo">
+                  </div>
+                  <div class="form-check d-flex justify-content-between align-items-center bg-light p-2 ps-5 rounded-3 border">
+                    <div class="d-flex">
+                      <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                      <label class="form-check-label fw-bold" for="flexRadioDefault2">
+                        DHL
+                      </label>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <span class="text-success me-2 fw-bold">+32 USD</span>
+                      <p class="text-dark mb-0 fw-bold">Additional price</p>
+                    </div>
+                    <img src="./images/DHL.svg" alt=" hedex logo">
+                  </div>
+                </div>
+                <div class="mb-5">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <h3 class="mb-2 fw-bold">Payment method</h3>
+                      <p class="mb-5 text-secondary">Please enter your payment method</p>
+                    </div>
+                    <div>
+                      <p class="text-secondary">Step 3 of 5</p>
+                    </div>
+                  </div>
+                  <div class="p-3 border rounded-3 mb-3">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                      <div class="d-flex align-items-center ">
+                        <span class="oval me-3"></span>
+                        <p class="fw-bold mb-0">Credit card</p>
+                      </div>
+                      <img src="./images/visa.svg" alt="visa logo">
+                    </div>
+                    <div class="mb-4">
+                      <label for="validationCustom20" class="form-label site-form-label">Card number</label>
+                      <input type="number" class="form-control bg-light rounded-3 border py-2" name="user_cardname" id="validationCustom20" placeholder="Card number" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="validationCustom02" class="form-label site-form-label">Card holder</label>
+                        <input type="text" class="form-control bg-light rounded-3 border py-2" name="user_cardholder" id="validationCustom02" placeholder="Card holder" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="validationCustomUsername" class="form-label site-form-label">Expiration date</label>
+                        <div class="input-group has-validation">
+                          <input type="date" class=" form-control bg-light rounded-3 border py-2" name="user_expiration" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Expiration date" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="validationCustomUsername" class="form-label site-form-label">CVC</label>
+                        <div class="input-group has-validation">
+                          <input type="text" class="form-control bg-light rounded-3 border py-2" name="user_cvc" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="CVC" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-check mb-3 d-flex justify-content-between align-items-center bg-light p-2 ps-5 rounded-3 border">
+                    <div class="d-flex">
+                      <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="paypal">
+                      <label class="form-check-label fw-bold" for="paypal">
+                        PayPal
+                      </label>
+                    </div>
+                    <img class="ms-5" src="./images/PayPal.svg" alt="paypal logo">
+                  </div>
+                  <div class="form-check d-flex justify-content-between align-items-center bg-light p-2 ps-5 rounded-3 border">
+                    <div class="d-flex">
+                      <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="bitcoin" checked>
+                      <label class="form-check-label fw-bold" for="bitcoin">
+                        Bitcoin
+                      </label>
+                    </div>
+                    <img src="./images/Bitcoin_logo.svg" alt="bitcoin logo">
+                  </div>
+                </div>
+                <div class="mb-5">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <h3 class="mb-2 fw-bold">Additional informations</h3>
+                      <p class="mb-5 text-secondary">Additional informations</p>
+                    </div>
+                    <div>
+                      <p class="text-secondary">Step 4 of 5</p>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="validationTextarea" class="form-label fw-bold">Order notes</label>
+                    <textarea class="text-area form-control bg-light rounded-3 border py-2" rows="4" cols="50" name="user_message" id="validationTextarea" placeholder="Need a specific delivery day? Sending a gitf? Let’s say ..." required></textarea>
+                    <div class="invalid-feedback">
+                      Please enter a message in the textarea.
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <h3 class="mb-2 fw-bold">Confirmation</h3>
+                      <p class="mb-5 text-secondary">We are getting to the end. Just few clicks and your order si ready!</p>
+                    </div>
+                    <div>
+                      <p class="text-secondary">Step 5 of 5</p>
+                    </div>
+                  </div>
+                  <div class="col-12 mb-3">
+                    <div class="form-check d-inline-block bg-light p-2 ps-5 pe-3 rounded-3 border">
+                      <input class="form-check-input" type="checkbox" value="I agree with sending an Marketing and newsletter emails. No spam, promissed!" name="user_tick_bottom_top" id="invalidCheck2" required>
+                      <label class="form-check-label" for="invalidCheck2">
+                        I agree with sending an Marketing and newsletter emails. No spam, promissed!
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check d-inline-block bg-light p-2 ps-5 pe-3 rounded-3 border">
+                      <input class="form-check-input" type="checkbox" value="I agree with our terms and conditions and privacy policy." name="user_tick_bottom_bottom" id="invalidCheck2" required>
+                      <label class="form-check-label" for="invalidCheck2">
+                        I agree with our terms and conditions and privacy policy.
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn button-green" type="submit">Submit form</button>
+                </div>
+              </form>
+              <div class="data-your-safe">
+                <img class="mb-2" src="./images/Vrstva 302.svg" alt="verify icon">
+                <strong class="d-inline-block mb-2">All your data are safe</strong>
+                <p class="text-secondary">We are using the most advanced security to provide you the best experience ever.</p>
+              </div>
+            </div>
+            <div class="card-open col-5">
+              <div class="p-3 border rounded-3 ">
+                <div class=" px-3 pt-3 pb-5 shownav">
+                  <div class="d-block  mb-4">
+                    <h2 class="modal__title">
+                      Order Summary
+                    </h2>
+                    <p class="description fw-normal text-secondary">Price can change depending on shipping method and taxes of your state.</p>
+                  </div>
+                  <div class="row mb-5 form-card pb-1">
+                    <div class="col-12 mb-3 d-flex">
+                      <img class="me-3 modal__image" src="images/pear.jpg" alt="modal-images">
+                      <div class="modal__info">
+                        <h3 class="modal__info-title mb-1">
+                          Product title
+                        </h3>
+                        <ul class="modal__list">
+                          <li class="modal__item">
+                            <a href="#" class="moda__link">Farm:
+                              <span class="modal__info-span modal__info-farm text-dark">
+                                Tharamis Farm
+                              </span>
+                            </a>
+                          </li>
+                          <li class="modal__item">
+                            <a href="#" class="moda__link">Freshness:
+                              <span class="modal__info-span modal__info-day text-dark">
+                                1 day old
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-12 mb-3 d-flex justify-content-between">
+                      <ul class="modal__list-icon">
+                        <li class="modal__icon-item">
+                          <a class="modal__icon-link heart  mb-2" href="#">
+                            Wishlist
+                          </a>
+                        </li>
+                        <li class="modal__icon-item">
+                          <a class="modal__icon-link compare mb-2" href="#">
+                            Compare
+                          </a>
+                        </li>
+                        <li class="modal__icon-item">
+                          <a class="modal__icon-link remove" href="#">
+                            Remove
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="modal__start">
+                        <img class="mb-3" src="./images/star4.svg" alt="star">
+                        <p class="modal__start-money">
+                          36.99 USD
+                        </p>
+                        <span class="modal__start-discount">
+                          48.56 USD
+                        </span>
+                      </div>
+                      <div class="modal__button px-1 d-flex align-items-center">
+                        <span class="modal__btn-span">1 pcs</span>
+                        <span class="modal__btn-line d-inline-block"></span>
+                        <div class="dropdown">
+                          <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pcs
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row form-card pb-1">
+                    <div class="col-12 mb-3 d-flex">
+                      <img class="me-3 modal__image" src="images/limon.jpg" alt="modal-images">
+                      <div class="modal__info">
+                        <h3 class="modal__info-title mb-1">
+                          Product title
+                        </h3>
+                        <ul class="modal__list">
+                          <li class="modal__item">
+                            <a href="#" class="moda__link">Farm:
+                              <span class="modal__info-span modal__info-farm text-dark">
+                                Tharamis Farm
+                              </span>
+                            </a>
+                          </li>
+                          <li class="modal__item">
+                            <a href="#" class="moda__link">Freshness:
+                              <span class="modal__info-span modal__info-day text-dark">
+                                1 day old
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-12 mb-3 d-flex justify-content-between">
+                      <ul class="modal__list-icon">
+                        <li class="modal__icon-item">
+                          <a class="modal__icon-link heart  mb-2" href="#">
+                            Wishlist
+                          </a>
+                        </li>
+                        <li class="modal__icon-item">
+                          <a class="modal__icon-link compare mb-2" href="#">
+                            Compare
+                          </a>
+                        </li>
+                        <li class="modal__icon-item">
+                          <a class="modal__icon-link remove" href="#">
+                            Remove
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="modal__start">
+                        <img class="mb-3" src="./images/star4.svg" alt="star">                      <p class="modal__start-money">
+                          36.99 USD
+                        </p>
+                        <span class="modal__start-discount">
+                          48.56 USD
+                        </span>
+                      </div>
+                      <div class="modal__button px-1 d-flex align-items-center">
+                        <span class="modal__btn-span">1 pcs</span>
+                        <span class="modal__btn-line d-inline-block"></span>
+                        <div class="dropdown">
+                          <button class="modal__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pcs
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <div class="fw-bold  d-flex align-items-center justify-content-between"><p>Subtotal</p> <p>73.98 USD</p></div>
+                  <div class="fw-bold  d-flex align-items-center justify-content-between"><p>Tax</p> <p>17% 16.53 USD</p></div>
+                  <div class="fw-bold  d-flex align-items-center justify-content-between"><p>Shipping</p> <p>0 USD</p></div>
+                </div>
+                <div class="arch-input mb-5">
+                  <input class="apply-now form-control hero__form fw-normal" type="email"  aria-label="Text input with dropdown button" placeholder="Apply promo code">
+                  <button class="btn-arch " type="button" data-bs-toggle="dropdown" aria-expanded="false">Apply now</button>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div >
+                    <strong>Total Order</strong>
+                    <p class="green-color description">Guaranteed delivery day:  June 12, 2020</p>
+                  </div>
+                  <strong class="cost fw-bold green-color">
+                    89.84 USD
+                  </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-light">
+          <div class="e-container">
+            <div class="py-5 ">
+              <p class="">Copyright © 2020 Freshnesecom</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero section finish -->
+
+    </main>
+    <!-- END OF SITE MAIN -->
+
+    
+    <script src="./bs-js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
